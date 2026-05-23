@@ -1,0 +1,257 @@
+aid: gsk
+url: https://raw.githubusercontent.com/api-evangelist/gsk/refs/heads/main/apis.yml
+name: GSK
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Pharmaceutical
+  - Biotechnology
+  - Vaccines
+  - HIV
+  - Oncology
+  - Healthcare
+  - ClinicalTrials
+description: >-
+  GSK plc (formerly GlaxoSmithKline, rebranded in May 2022) is a global
+  biopharma headquartered in the United Kingdom and dual-listed on the London
+  Stock Exchange and NYSE under the ticker GSK. Following the July 2022 spin-off
+  of its consumer-health business as Haleon, GSK is now a focused biopharma
+  operating across four therapeutic areas — infectious diseases, HIV, oncology,
+  and respiratory/immunology/inflammation — with flagship vaccine franchises
+  including Shingrix and Arexvy and an HIV joint venture (ViiV Healthcare) held
+  with Pfizer and Shionogi. GSK does not publish a public developer portal or
+  commercial REST APIs. Machine-readable surfaces are limited to press, podcast
+  and investor RSS feeds, the GSK Study Register and the ClinicalStudyDataRequest
+  (CSDR) consortium portal for patient-level clinical trial data, registrations
+  on ClinicalTrials.gov, and R/Python tooling published by the GSK-Biostatistics
+  GitHub organization.
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.gsk.com
+  - type: GitHubOrganization
+    url: https://github.com/GSK-Biostatistics
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/gsk
+  - type: X
+    url: https://x.com/GSK
+  - type: YouTube
+    url: https://www.youtube.com/user/GSKvision
+  - type: Blog
+    url: https://www.gsk.com/en-gb/behind-the-science-magazine/
+  - type: Newsletter
+    url: https://feed.podbean.com/behindthescience/feed.xml
+  - type: ChangeLog
+    url: https://www.gsk.com/en-gb/media/press-releases/
+  - type: ClinicalTrials
+    url: https://www.gsk-studyregister.com/en/
+  - type: DataSharing
+    url: https://www.clinicalstudydatarequest.com
+  - type: Transparency
+    url: https://www.gsk.com/en-gb/innovation/trials/data-transparency/
+  - type: Partners
+    url: https://www.gsk.com/en-gb/innovation/partnerships/
+  - type: Suppliers
+    url: https://supplier.gsk.com
+  - type: Customers
+    url: https://www.gskpro.com
+  - type: Investors
+    url: https://www.gsk.com/en-gb/investors/
+  - type: TrustCenter
+    url: https://www.gsk.com/en-gb/responsibility/
+  - type: PrivacyPolicy
+    url: https://www.gsk.com/en-gb/privacy-notice/
+  - type: TermsOfService
+    url: https://www.gsk.com/en-gb/terms-of-use/
+  - type: Contact
+    url: https://www.gsk.com/en-gb/contact-us/
+  - type: Support
+    url: https://www.gsk.com/speakup
+  - type: Resources
+    url: https://www.gsk.com/en-gb/media/rss-feeds/
+  - type: Features
+    data:
+      - name: GSK Study Register
+        description: >-
+          Public web register disclosing protocol summaries and results for GSK-sponsored
+          clinical trials. Over 7,400 protocol summaries and 6,500 results summaries
+          published since the register launched in 2004; search-only, no documented API.
+      - name: Patient-Level Clinical Data Sharing
+        description: >-
+          GSK is a founding sponsor of ClinicalStudyDataRequest.com (CSDR), a
+          13-sponsor consortium portal where qualified researchers can request
+          anonymized patient-level clinical study data subject to Independent
+          Review Panel approval and a Data Sharing Agreement.
+      - name: Clinical Study Reports
+        description: >-
+          More than 2,700 redacted Clinical Study Reports (CSRs) for approved
+          GSK medicines and vaccines published since 2000, available through the
+          Study Register and CSDR.
+      - name: ClinicalTrials.gov Registration
+        description: >-
+          All GSK-sponsored interventional studies are registered and result-reported
+          on ClinicalTrials.gov, the US federal registry, which itself offers a
+          public REST API for third-party integration.
+      - name: ViiV Healthcare Study Register
+        description: >-
+          Separate HIV-focused trial register operated by GSK's ViiV Healthcare
+          joint venture at viiv-studyregister.com.
+      - name: Press & Investor RSS
+        description: >-
+          Five RSS feeds covering press releases, Behind the Science magazine,
+          Behind the Science podcast, RNS stock-exchange announcements, and SEC
+          filings (CIK 0001131399).
+      - name: GSK Biostatistics Open Source
+        description: >-
+          29 public repositories of R and Python statistical tooling for clinical
+          reporting (tfrmt, gto, slushy, beastt, cicalc) and CDISC clinical-data
+          handling on Neo4j (neo4cdisc, neointerface, tab2neo).
+      - name: Healthcare Professional Portal
+        description: >-
+          gskpro.com provides authenticated HCPs with prescribing information,
+          medical information requests, and product safety materials by country.
+      - name: Supplier Portal
+        description: >-
+          supplier.gsk.com gateway for registered suppliers covering invoice
+          status, bank-detail management, and procurement onboarding.
+      - name: Distributor & Wholesaler EDI
+        description: >-
+          Drug ordering, returns, chargebacks, and shipment notifications are
+          exchanged with US distributors via X12 EDI rather than a public API.
+      - name: Pharmacovigilance Reporting
+        description: >-
+          Adverse-event reports follow ICH E2B(R3) and are routed to regulators
+          (FDA FAERS, EudraVigilance) rather than a public ingest API.
+  - type: UseCases
+    data:
+      - name: Clinical Research Data Discovery
+        description: >-
+          Find and link GSK-sponsored studies into clinical research and
+          evidence-generation platforms via the GSK Study Register and
+          ClinicalTrials.gov.
+      - name: Real-World Evidence Studies
+        description: >-
+          Researchers combine GSK trial data accessed through CSDR with external
+          real-world evidence sources for secondary analyses.
+      - name: Vaccine Surveillance
+        description: >-
+          Public health agencies and academic groups track Shingrix, Arexvy RSV,
+          and other GSK vaccine outcomes via published trial results.
+      - name: HIV Research
+        description: >-
+          Researchers integrate ViiV Healthcare HIV trial registrations and
+          publications into HIV evidence platforms.
+      - name: Clinical Reporting Automation
+        description: >-
+          Pharma and CRO biostatistics teams adopt GSK-Biostatistics R packages
+          (tfrmt, gto, slushy) for CDISC-aligned clinical report tables.
+      - name: Pharma Supply Chain Integration
+        description: >-
+          Distributors integrate order, shipment, and chargeback flows with
+          GSK's commercial supply chain via X12 EDI.
+      - name: Medical Affairs Engagement
+        description: >-
+          HCPs and medical-information vendors retrieve dosing, contraindication,
+          and interaction information via gskpro.com.
+      - name: ESG & Sustainability Reporting
+        description: >-
+          Investors and rating agencies consume GSK's Annual Report, Nature
+          Report, and Modern Slavery Act statement for ESG due diligence.
+  - type: Integrations
+    data:
+      - name: ClinicalStudyDataRequest.com (CSDR)
+        description: >-
+          13-sponsor consortium portal (Astellas, Bayer, Boehringer Ingelheim,
+          Daiichi Sankyo, Eisai, GSK, Lilly, Novartis, Roche, Sanofi, Takeda,
+          UCB, ViiV) for patient-level clinical trial data sharing.
+      - name: ClinicalTrials.gov
+        description: >-
+          US federal clinical trial registry where all GSK-sponsored
+          interventional studies are registered and result-reported.
+      - name: EU Clinical Trials Register
+        description: >-
+          European registry (EU CTR / CTIS) for GSK trials conducted in EU/EEA.
+      - name: trialsummaries.com
+        description: >-
+          Industry-wide platform for lay-language clinical trial result
+          summaries.
+      - name: ViiV Healthcare
+        description: >-
+          HIV-focused joint venture owned by GSK (majority), Pfizer, and
+          Shionogi; operates its own trial register and product portfolio.
+      - name: Haleon
+        description: >-
+          Consumer healthcare company spun off from GSK in July 2022; no longer
+          part of GSK plc.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: >-
+          US operations involving protected health information are subject to
+          HIPAA Privacy and Security Rules.
+      - name: GDPR
+        description: >-
+          European patient and trial data handling is governed by the EU General
+          Data Protection Regulation.
+      - name: FDA 21 CFR Part 11
+        description: >-
+          Electronic records and signatures supporting GSK's regulated processes
+          follow FDA 21 CFR Part 11 requirements.
+      - name: GxP (GMP / GCP / GLP / GVP)
+        description: >-
+          Manufacturing, clinical, lab, and pharmacovigilance practices follow
+          applicable Good Practice standards.
+      - name: ICH E2B
+        description: >-
+          Adverse-event reporting follows the ICH E2B(R3) standard for
+          individual case safety reports.
+      - name: CDISC SDTM / ADaM
+        description: >-
+          Clinical trial submission data follows CDISC Study Data Tabulation
+          Model and Analysis Data Model standards.
+      - name: UK Modern Slavery Act
+        description: >-
+          Annual Modern Slavery Act statement published covering GSK's supply
+          chain due diligence.
+  - type: GitHubRepository
+    data:
+      - name: tfrmt
+        url: https://github.com/GSK-Biostatistics/tfrmt
+        description: R package for clinical-report table formatting (89 stars).
+      - name: gto
+        url: https://github.com/GSK-Biostatistics/gto
+        description: gt tables in officeverse (31 stars).
+      - name: neointerface
+        url: https://github.com/GSK-Biostatistics/neointerface
+        description: Python Neo4j interface (25 stars).
+      - name: slushy
+        url: https://github.com/GSK-Biostatistics/slushy
+        description: R table-related tooling (21 stars).
+      - name: neo4cdisc
+        url: https://github.com/GSK-Biostatistics/neo4cdisc
+        description: CDISC metadata and clinical data loading into Neo4j (11 stars).
+      - name: tab2neo
+        url: https://github.com/GSK-Biostatistics/tab2neo
+        description: Python utilities for loading tabular data into Neo4j graphs.
+      - name: docorator
+        url: https://github.com/GSK-Biostatistics/docorator
+        description: R documentation utilities (7 stars).
+      - name: tfrmtbuilder
+        url: https://github.com/GSK-Biostatistics/tfrmtbuilder
+        description: R table formatting builder (6 stars).
+      - name: beastt
+        url: https://github.com/GSK-Biostatistics/beastt
+        description: Bayesian statistical tooling (6 stars).
+      - name: cicalc
+        url: https://github.com/GSK-Biostatistics/cicalc
+        description: Confidence interval calculations in R (4 stars).
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
