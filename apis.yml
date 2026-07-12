@@ -30,6 +30,10 @@ modified: '2026-05-23'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/gsk-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/gsk-domain-security.yml
   - type: Website
     url: https://www.gsk.com
   - type: GitHubOrganization
