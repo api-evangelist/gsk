@@ -15,6 +15,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gsk.png
 tags:
+  - Pharmaceuticals
+  - Biotechnology
+  - Vaccines
+  - HIV
+  - Oncology
+  - Healthcare
+  - Clinical Trials
+tags_raw:
   - Pharmaceutical
   - Biotechnology
   - Vaccines
