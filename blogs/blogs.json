@@ -2,18 +2,11 @@
   "repo": "gsk",
   "feeds": [
     {
-      "source": "https://www.youtube.com/user/GSKvision",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3NXgSmwiD0fepBY8XW78vA",
+      "source": "https://www.gsk.com/en-gb/behind-the-science-magazine/",
+      "feed_url": "https://www.gsk.com/en-gb/behind-the-science-magazine/rss/",
       "title": "",
       "saved": 0,
       "method": "discovered"
-    },
-    {
-      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3NXgSmwiD0fepBY8XW78vA",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3NXgSmwiD0fepBY8XW78vA",
-      "title": "",
-      "saved": 0,
-      "method": "feed"
     },
     {
       "source": "https://www.gsk.com/en-gb/behind-the-science-magazine/rss/",
@@ -21,10 +14,17 @@
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3NXgSmwiD0fepBY8XW78vA",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC3NXgSmwiD0fepBY8XW78vA",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 96,
-  "fetched": "2026-10-03T12:30:02Z",
+  "post_count": 100,
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
